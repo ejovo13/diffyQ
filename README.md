@@ -32,7 +32,6 @@ For a function involving squares, we should include the "element-wise" operator 
 ```MATLAB
 dydx = @(x, y) sin(x) + y.^2;
 directional_field(dydx);
-
 ```
 ![Directional field4](./media/d_f4.png)
 ![Directional field5](./media/d_f5.png)
