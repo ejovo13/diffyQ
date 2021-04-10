@@ -35,3 +35,6 @@ directional_field(dydx);
 ```
 ![Directional field4](./media/d_f4.png)
 ![Directional field5](./media/d_f5.png)
+
+The integral_curves function can be used to add different paths through the directional field, but in its current state the call to MATLAB's built-in function "streamlines" is 
+*incredibly* slow.
